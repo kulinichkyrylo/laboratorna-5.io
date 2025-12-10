@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MEGOGO — Підписки</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <div class="logo">MEGOGO</div>
+      
+      <nav class="nav">
+        <a href="#" class="nav-item">ТЕЛЕКАНАЛИ</a>
+        <a href="#" class="nav-item">ФІЛЬМИ</a>
+        
+        <div class="dropdown">
+          <span class="nav-item">МУЛЬТФІЛЬМИ</span>
+          <div class="dropdown-content">
+            <a href="#">Мультфільми Disney</a>
+            <a href="#">Мультсеріали Nickelodeon</a>
+            <a href="#">Українською мовою</a>
+            <a href="#" class="new">Новинки</a>
+          </div>
+        </div>
+        
+        <a href="#" class="nav-item">СЕРІАЛИ</a>
+        <a href="#" class="nav-item">ШОУ</a>
+        <a href="#" class="nav-item">СПОРТ</a>
+        <a href="#" class="nav-item">ОСВІТА</a>
+        <button class="nav-more" aria-label="Більше категорій">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="5" cy="12" r="1.5" fill="currentColor"/>
+            <circle cx="12" cy="12" r="1.5" fill="currentColor"/>
+            <circle cx="19" cy="12" r="1.5" fill="currentColor"/>
+          </svg>
+        </button>
+      </nav>
+    </div>
+    
+    <div class="header-right">
+      <button class="btn-tariffs">Тарифи</button>
+      <button class="search-btn" aria-label="Пошук">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="9" cy="9" r="6"/>
+          <line x1="13.5" y1="13.5" x2="17" y2="17"/>
+        </svg>
+      </button>
+      <div class="lang">UA</div>
+      <a href="registration.html" class="btn-login">УВІЙТИ</a>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="hero">
+      <h1>Вибирайте свою ідеальну передплату</h1>
+      <p>Підключайте в декілька кліків із пробним періодом для нових користувачів</p>
+    </section>
+
+    <section class="plans-container">
+      <div class="plan-card">
+        <h2 class="plan-title">Легка</h2>
+        <p class="plan-subtitle plan-subtitle1">Для любителів ТБ, колекція фільмів, мультиків та серіалів</p>
+        
+        <div class="plan-features">
+          <div class="plan-feature">
+            <span class="feature-number">375</span>
+            <span class="feature-text">каналів</span>
+          </div>
+          <div class="plan-feature">
+            <span class="feature-number">10 500+</span>
+            <span class="feature-text">фільмів</span>
+          </div>
+        </div>
+        
+        <button class="btn-subscribe">Підключити</button>
+        
+        <div class="plan-price">
+          <div class="price-main">99 <span class="price-period">грн/міс.</span></div>
+          <div class="price-old1">129</div>
+          <div class="price-note">Перші 7 днів — 29 грн</div>
+        </div>
+      </div>
+
+      <div class="plan-card">
+        <h2 class="plan-title">Оптимальна</h2>
+        <p class="plan-subtitle plan-subtitle2">Канали, фільми, серіали, мультики топових кіностудій</p>
+        
+        <div class="plan-features">
+          <div class="plan-feature">
+            <span class="feature-number">445</span>
+            <span class="feature-text">каналів</span>
+          </div>
+          <div class="plan-feature">
+            <span class="feature-number">11 500+</span>
+            <span class="feature-text">фільмів</span>
+          </div>
+        </div>
+        
+        <button class="btn-subscribe">Підключити</button>
+        
+        <div class="plan-price">
+          <div class="price-main">161 <span class="price-period">грн/міс.</span></div>
+          <div class="price-old2">249</div>
+          <div class="price-note">Перші 7 днів — 49 грн</div>
+        </div>
+      </div>
+
+      <div class="plan-card plan-card-megopack">
+        <div class="top-sales-badge">ТОП ПРОДАЖІВ</div>
+        <h2 class="plan-title">MEGOPACK</h2>
+        <div class="plan-max">(Максимальна)</div>
+
+        <p class="plan-subtitle">Весь спорт, канали, максимум фільмів та мультиків, серіали</p>
+
+        <div class="plan-features">
+          <div class="plan-feature">
+            <span class="feature-number">480</span>
+            <span class="feature-text">каналів</span>
+          </div>
+          <div class="plan-feature">
+            <span class="feature-number">16 000+</span>
+            <span class="feature-text">фільмів</span>
+          </div>
+        </div>
+
+        <button class="btn-subscribe">Підключити</button>
+
+        <div class="plan-price">
+          <div class="price-main">291 <span class="price-period">грн/міс.</span></div>
+          <div class="price-old3">449</div>
+          <div class="price-note">Перші 7 днів — 99 грн</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="more-link">
+      <a href="#">Детальніше про передплати</a>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MEGOGO — Увійти</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <div class="logo">MEGOGO</div>
+      
+      <nav class="nav">
+        <a href="index.html" class="nav-item">ТЕЛЕКАНАЛИ</a>
+        <a href="#" class="nav-item">ФІЛЬМИ</a>
+        
+        <div class="dropdown">
+          <span class="nav-item">МУЛЬТФІЛЬМИ</span>
+          <div class="dropdown-content">
+            <a href="#">Мультфільми Disney</a>
+            <a href="#">Мультсеріали Nickelodeon</a>
+            <a href="#">Українською мовою</a>
+            <a href="#" class="new">Новинки</a>
+          </div>
+        </div>
+        
+        <a href="#" class="nav-item">СЕРІАЛИ</a>
+        <a href="#" class="nav-item">ШОУ</a>
+        <a href="#" class="nav-item">СПОРТ</a>
+        <a href="#" class="nav-item">ОСВІТА</a>
+      </nav>
+    </div>
+    
+    <div class="header-right">
+      <button class="btn-tariffs">Тарифи</button>
+      <button class="search-btn" aria-label="Пошук">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="9" cy="9" r="6"/>
+          <line x1="13.5" y1="13.5" x2="17" y2="17"/>
+        </svg>
+      </button>
+      <div class="lang">UA</div>
+      <a href="registration.html" class="btn-login">УВІЙТИ</a>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="login-container">
+      <h1 class="login-title">Увійти</h1>
+      
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="login">Логін</label>
+          <input type="text" id="login" name="login" placeholder="Введіть логін" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="password">Пароль</label>
+          <input type="password" id="password" name="password" placeholder="Введіть пароль" required>
+        </div>
+        
+        <div class="form-actions">
+          <button type="submit" class="btn-login-form">Увійти</button>
+          <button type="button" class="btn-register">Зареєструватись</button>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

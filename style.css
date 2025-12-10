@@ -41,23 +41,26 @@ body {
 .nav {
   display: flex;
   align-items: center;
-  gap: 22px;
+  gap: 15px;
 }
 
 .nav-item {
-  font-size: 12px;
-  font-weight: 700;
   color: #fff;
   text-decoration: none;
-  padding: 4px 6px;
-  transition: 0.2s;
+  font-weight: 700;
+  font-size: 12px;
+  transition: all 0.22s ease;
+  cursor: pointer;
   white-space: nowrap;
+  padding: 6px 10px;
+  border-radius: 10px;
   background: transparent;
-  border-radius: 6px;
 }
 
 .nav-item:hover {
+  background-color: #fff;
   color: #ff4500;
+  transform: translateY(-2px);
 }
 
 .dropdown {
